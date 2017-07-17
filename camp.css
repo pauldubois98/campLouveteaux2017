@@ -231,8 +231,8 @@ h4{
 
 video{
     display: block;
-    height: 30em;
-    width: 40em;
+    height: 400px;
+    width: 700px;
     margin: auto;
 }
 
@@ -240,8 +240,15 @@ video{
 
 
 #promesses_video{
+    height: 420px;
     display: flex;
     align-content: space-between;
+}
+@media screen and (max-width: 1400px){
+    #promesses_video{
+        height: 900px;
+        flex-direction: column;
+    }
 }
 
 
